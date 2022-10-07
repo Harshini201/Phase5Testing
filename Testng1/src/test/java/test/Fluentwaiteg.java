@@ -2,6 +2,7 @@ package test;
 
 import org.testng.annotations.Test;
 
+
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
@@ -30,7 +31,7 @@ public class Fluentwaiteg {
 		
 		driver.get("http://softwaretestingplace.blogspot.com/2017/02/selenium-fluent-wait.html");
 		
-		driver.findElement(By.xpath("//*[@id='post-body-5280210221385817166']/div[1]/button")).click();
+		driver.findElement(By.xpath("//*[@id='post-body-5280210221385817166']/div[1]/button")).click();////*[@id="post-body-5280210221385817166"]/div[1]/button
 		
 		FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 				.withTimeout(Duration.ofSeconds(30))
