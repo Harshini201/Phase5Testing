@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="113.389">
+           time="167.233">
   <properties />
   
   
-            <testcase name="sigin" time="48.039" classname="phase5.Testautomate" />
-                <testcase name="Registeration" time="30.920" classname="phase5.Testautomate" />
-                <testcase name="addToCart" time="34.430" classname="phase5.Testautomate" />
+            <testcase name="Registeration" time="37.749" classname="phase5.Testautomate" />
+                <testcase name="sigin" time="96.231" classname="phase5.Testautomate" />
+                <testcase name="addToCart" time="33.253" classname="phase5.Testautomate" />
       
 </testsuite>

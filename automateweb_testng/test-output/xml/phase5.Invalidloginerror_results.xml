@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="85.707">
+           time="108.793">
   <properties />
   
   
-            <testcase name="Invalid" time="85.707" classname="phase5.Invalidloginerror" />
+            <testcase name="Invalid" time="108.793" classname="phase5.Invalidloginerror" />
       
 </testsuite>
