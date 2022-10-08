@@ -32,6 +32,8 @@ public class Testautomate {
 	 Thread.sleep(5000);
 	 driver.findElement(By.cssSelector("#ap_phone_number")).sendKeys("1234567890");
 	 Thread.sleep(5000);
+     driver.findElement(By.cssSelector("#ap_email")).sendKeys("xyz@gmail.com");
+     Thread.sleep(5000);
 	 driver.findElement(By.cssSelector("#ap_password")).sendKeys("Hars123");
 	 Thread.sleep(5000);
 	 driver.findElement(By.cssSelector("#continue")).click();
@@ -41,11 +43,11 @@ public class Testautomate {
   public void sigin()throws InterruptedException{
 
 		 driver.findElement(By.cssSelector("#nav-link-accountList")).click();
-		 Thread.sleep(5000);
-	     driver.findElement(By.cssSelector("#ap_email")).sendKeys("klmn@gmail.com");
-	     Thread.sleep(5000);
+		 Thread.sleep(20000);
+	     driver.findElement(By.cssSelector("#ap_email")).sendKeys("xyz@gmail.com");
+	     Thread.sleep(20000);
 		  driver.findElement(By.cssSelector("#continue")).click();
-		  Thread.sleep(5000);
+		  Thread.sleep(20000);
 	     driver.findElement(By.cssSelector("#ap_password")).sendKeys("1234567890");  
 	     Thread.sleep(30000);
   }

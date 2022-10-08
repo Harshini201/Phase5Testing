@@ -15,7 +15,7 @@ public class Invalidloginerror {
   public void Invalid () throws InterruptedException {
 	  driver.findElement(By.cssSelector("#nav-link-accountList")).click();
 		 Thread.sleep(20000);
-		  driver.findElement(By.cssSelector("#ap_email")).sendKeys("klmn@gmail.com");
+		  driver.findElement(By.cssSelector("#ap_email")).sendKeys("xyz@gmail.com");
 		  Thread.sleep(20000);
 		  driver.findElement(By.cssSelector("#continue")).click();
 		  Thread.sleep(20000);
@@ -23,7 +23,8 @@ public class Invalidloginerror {
 		  driver.findElement(By.cssSelector(" #signInSubmit")).click();
 		  Thread.sleep(20000);
 		 System.out.println (driver.findElement(By.cssSelector("#auth-error-message-box > div > h4")).getText()); 
-		
+		 System.out.println (driver.findElement(By.cssSelector("#auth-error-message-box > div > div > ul > li > span")).getText());
+		  Thread.sleep(20000);
     }
   
   @BeforeMethod
