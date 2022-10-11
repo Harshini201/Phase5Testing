@@ -1,0 +1,42 @@
+1) Serach for EC2
+2) Click on EC2 Dashboard
+3) Click Instances New in left Panel
+4) Click on Launch Instances
+5) Fill Form
+i) Give name
+ii) Select Template
+iii) Select instance
+iv) create key(one key file will be downloaded on your machine)
+v) Networking
+a) Click on Create security group and then press edit
+Inbound Security groups rules
+ssh tcp 22 o.o.o.o/o
+http tcp 80 o.o.o.o/o
+http tcp 80 ::/o
+
+vi)  create instance
+After creation click on view instance
+
+6) select checkbox in front of machine and click on connect
+7) In next window EC2 Instance Connect,  click on connect
+8) Select SSH Client tab, Copy Example
+9) Go to machine and paste example
+
+After connecting with machine, require to create webpage
+1) sudo yum install httpd -y
+
+sudo - admin user
+yum - a downloader and installer
+2) cd /var/www/html
+3) sudo vi index.html
+1 file will open press i to insert data
+<html>
+<body>
+<h1>
+Hello All!!!!
+<h1>
+</body>
+</html>
+4) save file
+first press esc then write :wq!
+sudo systemctl start httpd
